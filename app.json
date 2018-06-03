@@ -6,8 +6,8 @@
         "issue tracking",
         "collaboration"
     ],
-    "website": "https://github.com/skarllot/redmine-on-heroku",
-    "repository": "https://github.com/skarllot/redmine-on-heroku",
+    "website": "https://github.com/gyoson/redmine-on-heroku",
+    "repository": "https://github.com/gyoson/redmine-on-heroku",
     "logo": "https://cloud.githubusercontent.com/assets/296432/3865668/0fbd67c8-1fa3-11e4-9d4e-b33353725c60.png",
     "env": {
         "SECRET_TOKEN": {
@@ -20,5 +20,10 @@
     },
     "addons": [
         "heroku-postgresql"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/gyoson/heroku-buildpack-ruby"
+        }
     ]
 }

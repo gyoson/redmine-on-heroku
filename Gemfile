@@ -14,7 +14,6 @@ gem "protected_attributes"
 gem "actionpack-action_caching"
 gem "actionpack-xml_parser"
 gem "roadie-rails"
-gem 'json', github: 'flori/json', branch: 'v1.8'
 
 # Request at least nokogiri 1.6.7.2 because of security advisories
 gem "nokogiri", ">= 1.6.7.2"
